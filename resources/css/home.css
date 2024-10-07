@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.body-title {
+    margin: 0 auto;
+}
+
+.body-image {
+    width: 400px;
+    height: 400px;
+}
+
+.body-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}

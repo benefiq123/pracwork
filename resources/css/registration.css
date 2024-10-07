@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.registration-form {
+    width: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px orange solid;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

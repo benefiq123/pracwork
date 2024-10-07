@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.orders-wrapper {
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.orders-head, .order {
+    width: 100%;
+    display: flex;
+    border: 2px black solid;
+    height: 50px;
+}
+
+.order-cell {
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.order-description {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-wrap: anywhere;
+    margin-top: 0!important;
+}
+
